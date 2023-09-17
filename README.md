@@ -68,20 +68,14 @@
    git push origin master  # Or your branch name
    ```
 
-5. **Set Up a GitLab Runner:**
-
-   If you are using GitLab's shared runners, you don't need to set up a specific runner. However, if you want to use your own runner, follow the instructions in GitLab's documentation to set up and register a runner for your project.
-
-6. **Trigger the Pipeline:**
+5. **Trigger the Pipeline:**
 
    Open your GitLab project, and navigate to "CI/CD" > "Pipelines." You should see a new pipeline triggered by the push you made in step 4. Click on it to view the pipeline's progress.
 
-7. **Observe the Pipeline Execution:**
+6. **Observe the Pipeline Execution:**
 
    As the pipeline runs, you'll see the stages and jobs being executed. In this basic example, the jobs only print messages. However, you can replace these script commands with actual build and deployment commands for your web application.
 
-8. **Explore Advanced Features:**
+. **Explore Advanced Features:**
 
     Once you have a basic pipeline working, explore GitLab CI/CD's more advanced features, such as caching dependencies, deploying to different environments, and integrating with external services.
-
-This exercise will give you hands-on experience with GitLab CI/CD and help you understand how to set up automated pipelines for a web application. You can replace the "Hello World" web application with a more complex project as you become more familiar with GitLab CI/CD.
